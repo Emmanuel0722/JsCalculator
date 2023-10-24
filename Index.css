@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main{
+  text-align: center;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 280px;
+  height: 350px;
+  border: 0.1px solid rgb(198, 197, 197);
+  border-radius: 10px;
+  background-color: rgba(26, 82, 156, 0.726);
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  margin: 10px 0;
+  color: white;
+}
+
+.inputText{
+  height: 35px;
+  width: 90%;
+  text-align: end;
+  border: 0.1px solid rgb(198, 197, 197);
+  border-radius: 5px;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.btn{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.CalculatorConteiner{
+  width: 270px;
+  height: 285px;
+}
+
+.buttonConteiner{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn0{
+  width: 110px;
+  height: 50px;
+  margin: 5px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Agregando Media Query */
+
+/* @media only screen and (max-width: 600px) {
+  .container {
+    width: 320px;
+    height: 350px;
+  }
+} */
+
+@media (max-width: 100px) {
+  .body {
+    width: 290px;
+    height: 350px;
+  }
+
+  .CalculatorConteiner{
+    width: 290px;
+    height: 350px;
+  }
+
+  .buttonConteiner{
+    width: 250px;
+    height: 350px;
+  }
+}
