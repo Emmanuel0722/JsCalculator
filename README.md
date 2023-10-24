@@ -1,3 +1,3 @@
 Empezando la aplicacion JsCalculator...
 
-https://emmanuel0722.github.io/JsCalculator/
+https://emmanuel0722.github.io/JsCalculator/Index.html
