@@ -47,6 +47,10 @@ h1{
   cursor: pointer;
 }
 
+.btn:active{
+  background-color: rgba(102, 152, 217, 0.726);
+}
+
 .CalculatorConteiner{
   width: 270px;
   height: 285px;
@@ -67,6 +71,10 @@ h1{
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+}
+
+.btn0:active{
+  background-color: rgba(102, 152, 217, 0.726);
 }
 
 /* Agregando Media Query */
